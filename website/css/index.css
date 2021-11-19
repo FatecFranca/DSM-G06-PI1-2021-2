@@ -2,13 +2,13 @@
 
 /* Variáveis */
 :root {
-  --cor-prim: #F9D84D;
+  --cor-prim: #00e674;
   --cor-prim-clara: #FFEC9C;
-  --cor-secun: #F94D58;
+  --cor-secun: #00c853;
   --cor-secun-clara: #FD9CA3;
-  --cor-fundo: #333333;
+  --cor-fundo: #ffffff;
   --cor-fundo-clara: #555555;
-  --cor-texto: #EEEEEE;
+  --cor-texto: #ffffff;
   --fonte-texto: 'IBM Plex Sans', sans-serif;
   --fonte-titulo: 'Playfair Display', serif;
 }
@@ -58,7 +58,7 @@ header {
 
 #social ul li a img {
   width: 40px;
-  filter: brightness(0.225);
+  filter: brightness(2);
 }
 
 #social ul li a span {
@@ -129,7 +129,7 @@ header {
   background-color: var(--cor-prim);
   border-radius: 4px;
   border: 2px solid var(--cor-texto);
-  background-image: url('img/menu-icon-48x48.png');
+  background-image: url('../img/menu-icon-48x48.png');
   background-size: 40px;
   background-position: center center;
   cursor: pointer;  /* Cursor de "mãozinha" para links */
@@ -138,7 +138,7 @@ header {
 
 /* O seletor ~ seleciona o elemento irmão */
 #menu-contraido input:checked ~ span {
-  background-image: url('img/close-icon-48x48.png');
+  background-image: url('../img/close-icon-48x48.png');
 }
 
 main {
