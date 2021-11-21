@@ -200,8 +200,8 @@ section > article > h1 {
   font-size: 1.5rem;
 }
 
-/* Classe cartao-carro */
-.cartao-carro {
+/* Classe cartao-passeio */
+.cartao-passeio {
   border: 1px solid var(--cor-fundo);
   background-color: var(--cor-fundo);
   width: 300px;
@@ -210,42 +210,42 @@ section > article > h1 {
   border-radius: 16px;
 }
 
-/* Regra para link de .cartao-carro */
-.cartao-carro a {
+/* Regra para link de .cartao-passeio */
+.cartao-passeio a {
   text-decoration: none;  
 }
 
-.cartao-carro a div {
+.cartao-passeio a div {
   transition: 400ms;
 }
 
-/* Regra para o link de .cartao-carro quando o mouse sobrevoa */
-.cartao-carro a:hover div {
+/* Regra para o link de .cartao-passeio quando o mouse sobrevoa */
+.cartao-passeio a:hover div {
   filter: brightness(1.2);
   box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.15);
 }
 
-/* Regra para a div interna de .cartao-carro */
-.cartao-carro div {
+/* Regra para a div interna de .cartao-passeio */
+.cartao-passeio div {
   height: 360px;
   border-radius: 16px;
 }
 
-/* Regra para imagens dentro de .cartao-carro */
-.cartao-carro img {
+/* Regra para imagens dentro de .cartao-passeio */
+.cartao-passeio img {
   width: 100%;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
 
-.cartao-carro h1 {
+.cartao-passeio h1 {
   margin: 20px;
   font-family: var(--fonte-titulo);
   font-size: 1.75rem;
   color: var(--cor-secun);
 }
 
-.cartao-carro p {
+.cartao-passeio p {
   color: var(--cor-texto);
   margin: 0 20px;
 }
