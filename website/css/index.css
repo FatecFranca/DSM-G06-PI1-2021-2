@@ -2,12 +2,12 @@
 
 /* Variáveis */
 :root {
-  --cor-prim: #00e674;
+  --cor-prim: #007447;
   --cor-prim-clara: #FFEC9C;
-  --cor-secun: #00c853;
+  --cor-secun: #0F542F;
   --cor-secun-clara: #FD9CA3;
   --cor-fundo: #ffffff;
-  --cor-fundo-clara: #555555;
+  --cor-fundo-clara: #fafafa;
   --cor-texto: #ffffff;
   --fonte-texto: 'IBM Plex Sans', sans-serif;
   --fonte-titulo: 'Playfair Display', serif;
@@ -184,7 +184,7 @@ section > h1 { /* O sinal de > indica que serão atingidos apenas
   os h1 FILHOS DIRETOS de section */
   text-align: left;
   width: 100%;
-  color: var(--cor-fundo);
+  color: black;
   font-family: var(--fonte-titulo);
   font-style: italic;
   font-size: 2rem;
