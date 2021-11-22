@@ -9,6 +9,7 @@
   --cor-fundo: #ffffff;
   --cor-fundo-clara: #fafafa;
   --cor-texto: #ffffff;
+  --cor-texto-black:  black;
   --fonte-texto: 'IBM Plex Sans', sans-serif;
   --fonte-titulo: 'Playfair Display', serif;
 }
@@ -182,13 +183,23 @@ section {
 /* Regra para o título h1 que está dentro de section */
 section > h1 { /* O sinal de > indica que serão atingidos apenas
   os h1 FILHOS DIRETOS de section */
-  text-align: left;
+  text-align: center;
   width: 100%;
+  padding-bottom: 4px;
   color: black;
   font-family: var(--fonte-titulo);
   font-style: italic;
   font-size: 2rem;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4);
+}
+
+section > blockquote {
+  padding-top: 5px;
+}
+
+
+section > h1 {
+ padding-top: 5px; 
 }
 
 /* Regra para os títulos h1 que estão dentro dos articles do section */
@@ -282,6 +293,18 @@ aside article {
   padding: 30px 20px;
   border: 3px groove var(--cor-texto);
   border-radius: 8px;
+}
+
+aside article h1 {  
+  color: var(--cor-texto-black);
+}
+
+aside article p {  
+  color: var(--cor-texto-black);
+}
+aside article img{
+  width: 200px;
+  height: 200px;
 }
 
 article {
