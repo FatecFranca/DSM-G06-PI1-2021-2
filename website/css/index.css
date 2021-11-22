@@ -3,7 +3,7 @@
 /* Variáveis */
 :root {
   --cor-prim: #007447;
-  --cor-prim-clara: #FFEC9C;
+  --cor-prim-clara: #4f8e63;
   --cor-secun: #0F542F;
   --cor-secun-clara: #FD9CA3;
   --cor-fundo: #ffffff;
@@ -157,7 +157,7 @@ footer {
   background-color: var(--cor-fundo);
   min-height: 50px; /* altura mínima */
   padding: 20px;
-  color: var(--cor-texto);
+  color: var(--cor-texto-black);
 }
 
 /* Links dentro do footer */
@@ -179,6 +179,30 @@ section {
   width: 75%;
   margin: 20px;
 }
+
+section > h2 {
+  margin-top: 10px;
+}
+
+#cartao-apresentacao{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 8px;  
+}
+
+#img-serra{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80%;  
+}
+
+blockquote > p {
+  text-align:  justify;
+}
+
 
 /* Regra para o título h1 que está dentro de section */
 section > h1 { /* O sinal de > indica que serão atingidos apenas
@@ -245,6 +269,7 @@ section > article > h1 {
 /* Regra para imagens dentro de .cartao-passeio */
 .cartao-passeio img {
   width: 100%;
+  height: 300px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
@@ -295,13 +320,14 @@ aside article {
   border-radius: 8px;
 }
 
-aside article h1 {  
+aside article h1 {
   color: var(--cor-texto-black);
 }
 
 aside article p {  
   color: var(--cor-texto-black);
 }
+
 aside article img{
   width: 200px;
   height: 200px;
@@ -360,7 +386,7 @@ article {
   font-family: var(--fonte-titulo);
   font-style: italic;
   font-size: 1.5rem;
-  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4);
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4);  
 }
 
 .pagina-interna section h1 {
@@ -380,6 +406,7 @@ article {
   color: var(--cor-prim);
   text-decoration: underline;
 }
+
 
 /**************************************************
              REGRAS DE RESPONSIVIDADE
@@ -492,7 +519,7 @@ article {
   }
 
   footer img, footer address {
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
   }
 
 }
