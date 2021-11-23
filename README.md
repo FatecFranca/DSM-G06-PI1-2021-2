@@ -2,7 +2,5 @@
 Grupo 06 Projeto Interdisciplinar 1 DSM 2021/2
 
 # 💻	
-<p>
-	<img width="100px"  height="200px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-	<img width="100px"  height="200px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-</p>
+<img width="100px"  height="200px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+<img width="100px"  height="200px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
