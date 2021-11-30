@@ -5,7 +5,6 @@
   --cor-prim: #007447;
   --cor-prim-clara: #4f8e63;
   --cor-secun: #0F542F;
-  --cor-secun-clara: #FD9CA3;
   --cor-fundo: #ffffff;
   --cor-fundo-clara: #fafafa;
   --cor-texto: #ffffff;
@@ -155,7 +154,7 @@ footer {
   display: flex;
   justify-content: space-around;  /* distribui o espaço entre os itens filhos */
   align-items: center;  /* centralização vertical */
-  background-color: var(--cor-fundo);
+  background-color: var(--cor-prim);
   min-height: 50px; /* altura mínima */
   padding: 20px;
   color: var(--cor-texto-black);
@@ -163,7 +162,7 @@ footer {
 
 /* Links dentro do footer */
 footer a {
-  color: var(--cor-prim);
+  color: var(--cor-texto);
   text-decoration: none; /* sem sublinhado */
 }
 
